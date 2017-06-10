@@ -109,6 +109,7 @@ Unpacking data again while server is already running
 Installation
 ------------
 ::
+
     Clone the repository and run 'source duffel.sh up' to install and start
     the isolated MongoDB instance
 
