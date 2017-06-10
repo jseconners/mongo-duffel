@@ -35,18 +35,18 @@ MDFL_MONGO_OSV=(
 )
 
 MDFL_MONGO_TAR=(
-    "/linux/mongodb-linux-x86_64-debian71-$MONGO_VER.tgz"
-    "/linux/mongodb-linux-x86_64-debian81-$MONGO_VER.tgz"
-    "/linux/mongodb-linux-x86_64-rhel62-$MONGO_VER.tgz"
-    "/linux/mongodb-linux-x86_64-rhel70-$MONGO_VER.tgz"
-    "/linux/mongodb-linux-x86_64-suse11-$MONGO_VER.tgz"
-    "/linux/mongodb-linux-x86_64-suse12-$MONGO_VER.tgz"
-    "/linux/mongodb-linux-x86_64-ubuntu1204-$MONGO_VER.tgz"
-    "/linux/mongodb-linux-x86_64-ubuntu1404-$MONGO_VER.tgz"
-    "/linux/mongodb-linux-x86_64-ubuntu1604-$MONGO_VER.tgz"
-    "/linux/mongodb-linux-arm64-ubuntu1604-$MONGO_VER.tgz"
-    "/osx/mongodb-osx-x86_64-$MONGO_VER.tgz"
-    "/osx/mongodb-osx-ssl-x86_64-$MONGO_VER.tgz"
+    "/linux/mongodb-linux-x86_64-debian71-$MDFL_MONGO_VER.tgz"
+    "/linux/mongodb-linux-x86_64-debian81-$MDFL_MONGO_VER.tgz"
+    "/linux/mongodb-linux-x86_64-rhel62-$MDFL_MONGO_VER.tgz"
+    "/linux/mongodb-linux-x86_64-rhel70-$MDFL_MONGO_VER.tgz"
+    "/linux/mongodb-linux-x86_64-suse11-$MDFL_MONGO_VER.tgz"
+    "/linux/mongodb-linux-x86_64-suse12-$MDFL_MONGO_VER.tgz"
+    "/linux/mongodb-linux-x86_64-ubuntu1204-$MDFL_MONGO_VER.tgz"
+    "/linux/mongodb-linux-x86_64-ubuntu1404-$MDFL_MONGO_VER.tgz"
+    "/linux/mongodb-linux-x86_64-ubuntu1604-$MDFL_MONGO_VER.tgz"
+    "/linux/mongodb-linux-arm64-ubuntu1604-$MDFL_MONGO_VER.tgz"
+    "/osx/mongodb-osx-x86_64-$MDFL_MONGO_VER.tgz"
+    "/osx/mongodb-osx-ssl-x86_64-$MDFL_MONGO_VER.tgz"
 )
 
 MDFL_select_mongo() {
