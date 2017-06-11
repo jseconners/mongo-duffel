@@ -27,7 +27,7 @@ Installing and starting the local MongDB instance
     >
     > 1) debian 7 x64		  4) rhel 7 x64		   7) ubuntu 12.04 x64	   10) ubuntu 16.04 ARM 64
     > 2) debian 8 x64		  5) suse 11 x64	   8) ubuntu 14.04 x64	   11) osx 10.7+ x64
-    > 3) rhel 6 x64		      6) suse 12 x64	   9) ubuntu 16.04 x64	   12) osx 10.7+ w/ssl x64
+    > 3) rhel 6 x64		     6) suse 12 x64	   9) ubuntu 16.04 x64	   12) osx 10.7+ w/ssl x64
     > Select OS version for mongodb install: 9
     >
     > Download and install for ubuntu 16.04 x64? [y/N] y
