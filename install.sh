@@ -8,6 +8,7 @@
 MDFL_ORIG_DIR=$( pwd )
 cd $( dirname "${BASH_SOURCE[0]}" )
 MDFL_INST_DIR=$( pwd )
+MDFL_SRC='src'
 
 while true; do
 	read -p "Specify directory to install to: ";
@@ -35,7 +36,7 @@ done
 
 read -p "Install into $MDFL_DIR (y/n)? " -n 1;
 echo "";
-if [[ $REPLY =~ ^[Yy]$ ]] && cp -r duffel/. $MDFL_DIR/; then
+if [[ $REPLY =~ ^[Yy]$ ]] && cp -r $MDFL_SRC/. $MDFL_DIR/; then
     echo "mongo-duffel installed in $MDFL_DIR"
 fi
 

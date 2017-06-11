@@ -13,7 +13,7 @@ starting and stopping the server and also provides the option for packing up
 the data directory for versioning and unpacking across machines.
 
 Utilize the packing/unpacking alongside with a python virtual environment
-for a nice little portable workspace.
+for a portable python/mongo workspace.
 
 Usage
 ------------
@@ -21,7 +21,7 @@ Usage
 Installing and starting the local MongDB instance
 ::
 
-    $ source duffel.sh up
+    $ source mongo-duffel.sh up
     >
     > No local mongodb install found
     >
@@ -46,7 +46,7 @@ Installing and starting the local MongDB instance
 Stopping the local instance and optionally packing up the data
 ::
 
-    $ source duffel.sh down
+    $ source mongo-duffel.sh down
     >
     > Removing local binaries from path
     > Stopping server
@@ -60,7 +60,7 @@ it can't find a local installation.
 Starting and existing installation
 ::
 
-    $ source duffel.sh up
+    $ source mongo-duffel.sh up
     >
     > Local mongodb installed
     > Adding local binaries to path
@@ -77,7 +77,7 @@ the script will handle stopping and restarting the server to do this.
 Starting up and unpacking data
 ::
 
-    $ source duffel.sh up
+    $ source mongo-duffel.sh up
     >
     > Local mongodb installed
     > Adding local binaries to path
@@ -92,7 +92,7 @@ Starting up and unpacking data
 Unpacking data again while server is already running
 ::
 
-    $ source duffel.sh up
+    $ source mongo-duffel.sh up
     >
     > Local mongodb installed
     > Local binaries already in path
