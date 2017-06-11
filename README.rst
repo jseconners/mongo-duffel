@@ -108,7 +108,11 @@ Unpacking data again while server is already running
 
 Installation
 ------------
-Clone the respository
+Clone repository and run the following. You'll be prompted for installing
+the necessary files into a specified directory.
+::
+
+    $ source install.sh
 
 Author
 ------
