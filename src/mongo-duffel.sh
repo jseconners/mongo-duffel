@@ -102,10 +102,9 @@ MDFL_install() {
         MDFL_TARBALL=$( basename "$MDFL_MONGO_DOWNLOAD" )
         MDFL_DECOMPD=$( basename "$MDFL_TARBALL" .tgz )
 
-        echo "";
+        MDFL_print_info "Downloading..."
         mkdir -p "$MDFL_MONGO_DAT" "$MDFL_MONGO_LOG" &&
-        curl -O "$MDFL_MONGO_DOWNLOAD" &&
-
+        curl -O "$MDFL_MONGO_DOWNLOAD" > /dev/null 2>&1 &&
         MDFL_print_info "Installing local mongodb..."
         tar -zxvf "$MDFL_TARBALL" > /dev/null 2>&1 &&
         mv "$MDFL_DECOMPD" "$MDFL_MONGO_SRC" &&

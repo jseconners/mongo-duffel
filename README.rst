@@ -31,10 +31,7 @@ Installing and starting the local MongDB instance
     > Select OS version for mongodb install: 9
     >
     > Download and install for ubuntu 16.04 x64? [y/N] y
-    >
-    >   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-    >                                  Dload  Upload   Total   Spent    Left  Speed
-    > 100 95.7M  100 95.7M    0     0  6377k      0  0:00:15  0:00:15 --:--:-- 6033k
+    > Downloading...
     > Installing local mongodb...
     > Local binaries already in path
     > Starting local mongodb
