@@ -11,7 +11,7 @@ MDFL_INST_DIR=$( pwd )
 MDFL_SRC='src'
 
 while true; do
-	read -p "Specify directory to install to: ";
+	read -e -p "Specify directory to install to: ";
     MDFL_DIR=${REPLY%/}
     MDFL_DIR=${MDFL_DIR/\~/$HOME}
 
