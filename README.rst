@@ -111,6 +111,11 @@ the necessary files into a specified directory.
 
     $ source install.sh
 
+A .gitignore file will be copied into the specified directory with a single entry
+for the local mongo installation. Use the packing/unpacking for versioning the
+data and update the .gitignore based on whatever else you add to the workspace
+if you want it to be portable. 
+
 Author
 ------
 
